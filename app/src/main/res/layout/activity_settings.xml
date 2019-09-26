@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    android:paddingTop="@dimen/vertical_margin"
+    android:orientation="vertical"
+    tools:context=".ui.SettingsActivity">
+
+    <TextView
+        android:id="@+id/change_language_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language_settings"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <RelativeLayout
+        android:id="@+id/release_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginBottom="@dimen/vertical_margin">
+
+        <TextView
+            android:id="@+id/tv_title_release_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:maxLines="1"
+            android:text="@string/release_reminder"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/tv_desc_release_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_release_reminder"
+            android:maxLines="2"
+            android:text="@string/desc_release_reminder"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sc_release_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/daily_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_margin">
+
+        <TextView
+            android:id="@+id/tv_title_daily_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:maxLines="1"
+            android:text="@string/daily_reminder"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/tv_desc_daily_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_daily_reminder"
+            android:maxLines="2"
+            android:text="@string/desc_daily_reminder"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sc_daily_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</LinearLayout>

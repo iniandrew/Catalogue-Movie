@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="image_poster">Image Poster</string>
+    <string name="overview">Overview</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="settings">Settings</string>
+    <string name="favorite_added">Successfully Added to Favorite</string>
+    <string name="favorite_deleted">Successfully Deleted</string>
+    <string name="image">Image</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="movie_favorite">Movie Favorite</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="tvshow_favorite">TV Show Favorite</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="desc_release_reminder">Reminder showing the movie that released today</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="desc_daily_reminder">Reminder for return to app</string>
+
+    <string name="daily_reminder_message">Catalogue Movie missing you!</string>
+    <string name="release_reminder_message">has been released today!</string>
+
+    <string name="daily_reminder_enable">Daily reminder enable</string>
+    <string name="daily_reminder_disable">Daily reminder disable</string>
+    <string name="release_reminder_enable">Release reminder enable</string>
+    <string name="release_reminder_disable">Release reminder disable</string>
+    <string name="something_error">Oops something went wrong</string>
+</resources>
